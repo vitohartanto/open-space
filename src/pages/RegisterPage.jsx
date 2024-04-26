@@ -28,7 +28,8 @@ function RegisterPage() {
         <RegisterInput register={onRegister} />
 
         <p>
-          Already have an account? <Link to="/">Login</Link>
+          Already have an account?
+          <Link to="/">Login</Link>
         </p>
       </article>
     </section>

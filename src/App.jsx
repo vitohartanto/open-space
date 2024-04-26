@@ -12,6 +12,7 @@ import { asyncUnsetAuthUser } from './states/authUser/action';
 
 function App() {
   const { authUser = null, isPreload = false } = useSelector(
+    // eslint-disable-next-line comma-dangle
     (states) => states
   ); // @TODO: get authUser and isPreLoad state from store
 

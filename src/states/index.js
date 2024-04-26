@@ -2,6 +2,7 @@
  * @TODO: Create Redux store
  */
 
+import { loadingBarReducer } from 'react-redux-loading-bar';
 import { configureStore } from '@reduxjs/toolkit';
 import authUserReducer from './authUser/reducer';
 import isPreloadReducer from './isPreload/reducer';
@@ -16,6 +17,7 @@ const store = configureStore({
     users: usersReducer,
     talks: talksReducer,
     talkDetail: talkDetailReducer,
+    loadingBar: loadingBarReducer,
   },
 });
 
