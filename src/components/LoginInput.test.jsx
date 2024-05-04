@@ -8,7 +8,8 @@
  */
 
 import React from 'react';
-import { describe, it, expect } from 'vitest';
+// eslint-disable-next-line object-curly-newline
+import { describe, it, expect, vi } from 'vitest';
 import { cleanup, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import matchers from '@testing-library/jest-dom/matchers';
